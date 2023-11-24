@@ -24,7 +24,7 @@ Personne::Personne(int id) : id(id) {}
 
 Personne::Personne(int id, string nom) : Personne(id) {
     this->nom = nom;
-  }
+}
 
 
 class Etudiant : public Personne {
