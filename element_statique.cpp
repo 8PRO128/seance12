@@ -14,12 +14,12 @@ class Personne {
 
 int Personne::id_suivant = 0;
 
-Personne::Personne() {
-  id = id_suivant++;
-}
-
 int Personne::get_id() const{
   return id;
+}
+
+Personne::Personne() {
+  id = id_suivant++;
 }
 
 int main() {
